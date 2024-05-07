@@ -1963,7 +1963,7 @@ textarea.is-invalid {
   height: 100%;
   width: 100%;
   mix-blend-mode: color;
-  background: var(--theme-color);
+  /* background: var(--theme-color); */
   position: absolute;
   top: 0;
 }
@@ -14635,6 +14635,7 @@ span.select2-selection.select2-selection--single:focus {
   position: absolute;
   top: 22px;
   left: 22px;
+  width: 80px;
 }
 .team-card .team-img {
   border-radius: 10px;
@@ -21453,3 +21454,5 @@ span.select2-selection.select2-selection--single:focus {
     padding-bottom: 70px;
   }
 }
+
+
